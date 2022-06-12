@@ -916,6 +916,15 @@
         background-color:black;
         border-radius: 5%;
         border: solid 15px black;
+        margin-left: 5px;
+        position: relative;
+    }
+    .phn{
+        height: 96vh;
+        width: 90%;
+        background-color:black;
+        border-radius: 5%;
+        border: solid 15px black;
         margin-left: 20px;
         position: relative;
     }
