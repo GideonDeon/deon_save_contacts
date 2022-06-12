@@ -21,6 +21,7 @@ def register(request):
  
 class IndexView(LoginRequiredMixin, ListView):
     model = Contact
+    template_name = 'app/index.html'
     context_object_name = 'deets'
     
     def get_context_data(self, **kwargs):
