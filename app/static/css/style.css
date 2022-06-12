@@ -1191,6 +1191,9 @@
     .dclick{
         display: none;
     }
+    .thold{
+        width: 97%;
+    }
 }
 .errorlist{
     padding-left: 0;
