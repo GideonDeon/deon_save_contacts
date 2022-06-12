@@ -1195,6 +1195,17 @@
     list-style-type: none;
     text-align: center;
 }
+.cam{
+    background-color: white;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    border: solid 5px black;
+    position: absolute;
+    left: 5em;
+    top: -1%;  
+    z-index: 4;
+}
 .sign{
     text-align: center;
 }
