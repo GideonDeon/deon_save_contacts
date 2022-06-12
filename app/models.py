@@ -1,9 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
-import tkinter as TK
 
 class Contact(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     initials = models.CharField(max_length=1, blank=True)
     firstname = models.CharField(max_length=200, blank=True)
     lastname = models.CharField(max_length=200, blank=True)
