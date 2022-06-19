@@ -1195,6 +1195,9 @@
         width: 97%;
     }
 }
+#check{
+    accent-color: black;
+}
 .errorlist{
     padding-left: 0;
     color: red;
